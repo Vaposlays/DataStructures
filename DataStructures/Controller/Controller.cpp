@@ -21,7 +21,7 @@ void Controller :: start()
     codeTimer.resetTimer();
     codeTimer.startTimer();
     
-    vector<CrimeData> myData = FileController :: readCrimeDataToVector(/Users/mchi3485/Documents/DataStructures/DataStructures/DataStructures/Data/crime.csv);
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/mchi3485/Documents/DataStructures/DataStructures/DataStructures/Data/crime.csv");
     
     codeTimer.resetTimer();
     codeTimer.startTimer();
@@ -35,7 +35,8 @@ void Controller :: start()
 
 void Controller :: findMaxAndMin()
 {
-    vector<CrimeData> myData = FileController :: readCrimeDataToVector(/Users/mchi3485/Documents/DataStructures/DataStructures/DataStructures/Data/crime.csv);
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/mchi3485/Documents/DataStructures/DataStructures/DataStructures/Data/crime.csv");
+    
     int maxIndex = 0;
     int minIndex = 0;
     
