@@ -9,7 +9,6 @@
 #ifndef FileController_hpp
 #define FileController_hpp
 
-#include <stdio.h>
 #include "../Data/CrimeData.hpp"
 #include <string>
 #include <fstream>
@@ -19,10 +18,10 @@
 
 using namespace std;
 
-class FileController()
+class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
-}
+};
 
 #endif /* FileController_hpp */
