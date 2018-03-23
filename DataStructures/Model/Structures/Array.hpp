@@ -10,7 +10,7 @@
 #define Array_hpp
 
 #include <assert.h>
-#insclude <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -30,7 +30,7 @@ public:
     ~Array<Type>();
     
     //Operators
-    Array<Type? & operator = (const Array<Type> & toReplace);
+    Array<Type> & operator = (const Array<Type> & toReplace);
     Type& operator [] (int index);
     Type operator [] (int index) const;
     
@@ -38,7 +38,7 @@ public:
     int getSize() const;
     Type getFromIndex(int index);
     void setAtIndex(int index, Type data);
-}
+    };
     
 template <class Type>
 Array<Type> :: Array(int size)
