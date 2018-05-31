@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0AB56120C037FB000F7811 /* TestStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AB55F20C037FB000F7811 /* TestStacksAndQueues.cpp */; };
 		2E0F68F720220CFE0071273D /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F68F620220CFE0071273D /* Runner.cpp */; };
 		2E0F68FC20220D7A0071273D /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F68FA20220D7A0071273D /* Controller.cpp */; };
 		2E0F690020220F260071273D /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F68FE20220F260071273D /* Timer.cpp */; };
@@ -37,6 +38,8 @@
 		2E0240A920BEE40000BAC20F /* Hashtable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hashtable.hpp; sourceTree = "<group>"; };
 		2E0240AC20BEE42400BAC20F /* Hashnode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hashnode.hpp; sourceTree = "<group>"; };
 		2E0240B120BEED7F00BAC20F /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		2E0AB55F20C037FB000F7811 /* TestStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestStacksAndQueues.cpp; sourceTree = "<group>"; };
+		2E0AB56020C037FB000F7811 /* TestStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestStacksAndQueues.hpp; sourceTree = "<group>"; };
 		2E0F68E620220B690071273D /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0F68F620220CFE0071273D /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		2E0F68FA20220D7A0071273D /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				2EB51A7D208E223000C1CBEC /* N_AryTreeNode.cpp */,
 				2EB51A7E208E223000C1CBEC /* N_AryTreeNode.hpp */,
 				2EB51A80208E390600C1CBEC /* N_AryTreeNode.hh */,
+				2E0AB55F20C037FB000F7811 /* TestStacksAndQueues.cpp */,
+				2E0AB56020C037FB000F7811 /* TestStacksAndQueues.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				2EB51A7F208E223000C1CBEC /* N_AryTreeNode.cpp in Sources */,
 				2EDD0E5A2024BD0100FE26AF /* CrimeData.cpp in Sources */,
 				2E747B38204DAD7A0061EDA6 /* Controller.cp in Sources */,
+				2E0AB56120C037FB000F7811 /* TestStacksAndQueues.cpp in Sources */,
 				2E325450205AB3F500D24EB2 /* SortingTester.cpp in Sources */,
 				2ED9464F206544F500FAAC20 /* GraphTester.cpp in Sources */,
 				2EE9C2DA206D374600BF07E0 /* BinaryTreeTester.cpp in Sources */,
